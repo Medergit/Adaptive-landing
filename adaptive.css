@@ -1,0 +1,247 @@
+@media only screen and (max-width: 1100px){
+    .name{
+        text-align: center;
+    }
+    .about{
+        font-size: 13px;
+        padding-top: 7px;
+    }
+    .nav{
+        font-size: 14px;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+
+    .landNav{
+        padding: 200px 0;
+    }
+    .landText{
+        font-size: 30px;
+        width: 350px;
+    }
+
+    .eventsImage img{
+        width: 300px;
+        height: 150px;
+    }
+
+    .year{
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    
+    h2{
+        margin: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+
+
+    .name{
+        font-size: 14px;
+    }
+    .about{
+        font-size: 10px;
+        padding: 10px 15px 0;
+        gap:5px;
+    }
+    .info > .more{
+        font-size: 14px;
+        text-align: center;
+    }
+    .mail, .phone, .street{
+        margin-left: 15px;
+    }
+
+    .navigation{
+        margin: 0px;
+    }
+    .nav{
+        font-size: 14px;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+
+    .landNav{
+        padding: 150px 0;
+    }
+    .landText{
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .courses{
+        padding: 20px 35px;
+    }
+
+    .examsImage img{
+        width: 150px;
+        height: 70px;
+    }
+
+    .events{
+        padding: 25px 35px;
+    }
+    .eventsImage img{
+        width: 200px;
+        height: 100px;
+    }
+
+    .news{
+        flex-wrap: wrap;
+    }
+    .news div{
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .contactsInfo{
+        padding: 20px;
+    }
+   
+}
+
+@media only screen and (max-width: 430px){
+
+    h2{
+        margin: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    .more{
+        font-size: 13px;
+    }
+
+    .menu{
+        display: inline-block;
+        width: 40px;
+    }
+    .name{
+        font-size: 12px;
+    }
+    .about{
+        font-size: 10px;
+        padding: 10px 15px 0;
+        gap:5px;
+        display: inline-block;
+    }
+    .about i{
+        display: none;
+    }
+    .info > .more{
+        font-size: 14px;
+        text-align: center;
+    }
+    .mail, .phone, .street{
+        margin-left: 15px;
+    }
+
+    .navigation{
+        margin: 0px;
+    }
+    .nav{
+        display: none;
+    }
+    .see{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+        background-color: beige;
+        width: 100%;
+        top: 170px;
+        left: 0;
+    }
+
+
+    .landNav{
+        padding: 50px 0;
+    }
+    .landText{
+        font-size: 15px;
+        width: 150px;
+    }
+    .landa{
+        display: none;
+    }
+
+    .logoSchool{
+        display: none;
+    }
+
+    .courses{
+        padding: 20px 10px;
+    }
+    .coursesNav{
+        flex-wrap: wrap;
+    }
+    .coursesNav a{
+        margin: 5px;
+    }
+    .coursesTable{
+        font-size: 11px;
+    }
+    .tableName, .tableGroup{
+        padding: 10px 0;
+    }
+
+    .exams{
+        display: inline-block;
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+    .examsInfo{
+        margin-bottom: 20px;
+    }
+    .examsImage img{
+        width: 150px;
+        height: 70px;
+    }
+
+    .events{
+        padding: 15px;
+        margin-bottom: 25px;
+        display: inline-block;
+    }
+    .eventsInfo{
+        margin-bottom: 20px;
+    }
+    .eventsImage img{
+        width: 200px;
+        height: 100px;
+    }
+
+    .news{
+        display: block;
+    }
+    .news div{
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    .contactsInfo{
+        display: inline-block;
+        padding: 20px;
+    }
+    .adress, .contactsAbout, .twice, .ex, .sch {
+        width: auto;
+        
+    }
+    .time{
+        margin-bottom: 0;
+    }
+    .year{
+        font-size: 10px;
+    }
+
+}
